@@ -6,6 +6,7 @@ body {
   display: flex;
   justify-content: space-around;
   align-items: center;
+  background-color: #1F2937;
 }
 
 .header-links ul {
@@ -14,6 +15,14 @@ body {
   gap: 8px;
 }
 
+.header-logo-text {
+  font-size: 24px;
+  color: #F9FAF8;
+}
+
 a {
+  color: #E5E7EB;
   text-decoration: none;
+  font-size: 18px;
+
 }
