@@ -12,7 +12,7 @@ body {
 .header-links ul {
   display: flex;
   list-style-type: none;
-  gap: 8px;
+  gap: 16px;
 }
 
 .header-logo-text {
@@ -24,5 +24,12 @@ a {
   color: #E5E7EB;
   text-decoration: none;
   font-size: 18px;
+}
 
+.footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #1f2937;
+  color: #e5e7eb;
 }
