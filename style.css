@@ -1,12 +1,22 @@
 body {
   font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  display: flex;
+  flex-direction: column;
+}
+
+a, .hero-text {
+  color: #E5E7EB;
+  text-decoration: none;
+  font-size: 18px;
 }
 
 .header {
   display: flex;
-  justify-content: space-around;
+  flex-shrink: 0;
+  justify-content: space-between;
   align-items: center;
   background-color: #1F2937;
+  padding: 15px 90px;
 }
 
 .header-links ul {
@@ -15,15 +25,46 @@ body {
   gap: 16px;
 }
 
-.header-logo-text {
+.header-logo-text{
   font-size: 24px;
   color: #F9FAF8;
 }
 
-a {
+.content {
+  display: flex;
+  flex: 1 0 auto;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.hero-section {
+  display: flex;
+  background-color: #1F2937;
+  padding: 45px 90px;
+  gap: 40px;
+}
+
+.hero-header {
+  font-size: 48px;
+  font-weight: 900;
+  color: #F9FAF8;
+}
+
+.hero-text {
+  padding-bottom: 6px;
+}
+
+.hero-button {
+  background-color: #3882f6;
   color: #E5E7EB;
-  text-decoration: none;
-  font-size: 18px;
+  border-radius: 6px;
+  border-color: #3882f6;
+  padding: 4px 20px;
+}
+
+.hero-image {
+  max-width: 500px;
 }
 
 .footer {
@@ -32,4 +73,6 @@ a {
   align-items: center;
   background-color: #1f2937;
   color: #e5e7eb;
+  flex-shrink: 0;
+  margin: 0;
 }

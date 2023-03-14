@@ -1,1 +1,3 @@
 # odin-LandingPage
+## image credits: Lungs Image by <a href="https://pixabay.com/users/yourialka-30256018/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=7578680">M Youri Alkayyis</a> from <a href="https://pixabay.com//?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=7578680">Pixabay</a>
+## Coffee Image by <a href="https://pixabay.com/users/ruslansikunov-11647343/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=7833769">Ruslan Sikunov</a> from <a href="https://pixabay.com//?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=7833769">Pixabay</a>
