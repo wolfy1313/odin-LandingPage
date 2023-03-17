@@ -107,6 +107,22 @@ a, .hero-text {
   text-align: center;
 }
 
+.quote-section {
+  background-color: #e5e7eb;
+  padding: 45px 240px;
+}
+
+.quote-paragraph {
+  font-size: 36px;
+  font-style: italic;
+  font-weight: lighter;
+}
+
+.quote-attribution {
+  text-align: end;
+  padding: 0px 60px;
+}
+
 .footer {
   display: flex;
   justify-content: center;
@@ -115,4 +131,5 @@ a, .hero-text {
   color: #e5e7eb;
   flex-shrink: 0;
   margin: 0;
+  padding: 24px;
 }
